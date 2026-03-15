@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Library Admin</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+<h2>Library Admin Panel</h2>
+
+
+<h4>Add Book</h4>
+
+<input id="title" class="form-control mb-2" placeholder="Book Title">
+
+<input id="author" class="form-control mb-2" placeholder="Author">
+
+<input id="quantity" type="number" class="form-control mb-2" placeholder="Quantity">
+
+<button onclick="addBook()" class="btn btn-success">Add Book</button>
+
+
+<h4 class="mt-4">Issue Book</h4>
+
+<input id="student" class="form-control mb-2" placeholder="Student Name">
+
+<input id="roll" class="form-control mb-2" placeholder="Roll Number">
+
+<input id="branch" class="form-control mb-2" placeholder="Branch">
+
+<input id="book" class="form-control mb-2" placeholder="Book Title">
+
+<button onclick="issueBook()" class="btn btn-primary">Issue Book</button>
+
+
+<h4 class="mt-4">Return Book</h4>
+
+<input id="returnbook" class="form-control mb-2" placeholder="Book Title">
+
+<button onclick="returnBook()" class="btn btn-warning">Return Book</button>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+
+</html>
